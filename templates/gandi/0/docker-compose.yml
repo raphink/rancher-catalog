@@ -1,5 +1,5 @@
 gandi:
-  image: rancher/external-dns:v0.3.0
+  image: camptocamp/external-dns:latest
   command: -provider=gandi
   expose: 
    - 1000
